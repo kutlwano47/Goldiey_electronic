@@ -89,14 +89,14 @@ body {
 
 /* Product Card */
 .product-card {
-  background: rgba(0, 0, 0, 0.6); /* darker overlay */
+  background: rgba(9, 9, 9, 0.6); /* darker overlay */
   padding: 12px;
   border-radius: 10px;
   text-align: center;
 }
 
 .product-card h4 {
-  color: #161414;
+  color: #0c0c0c;
   font-weight: 700;
   margin-top: 8px;
 }
