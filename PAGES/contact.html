@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Goldiey's Electronic Store</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- contact.html -->
+<body class="contact-page">
+
+  <header class="site-header">
+    <div class="brand">GOLDIEY'S ELECTRONIC STORE</div>
+    <button id="mobileToggle" class="mobile-toggle">☰</button>
+    <nav class="nav">
+      <a class="nav-link" href="../index.html">Home</a>
+      <a class="nav-link" href="about.html">About Us</a>
+      <a class="nav-link" href="products.html">Products</a>
+      <a class="nav-link" href="order.html">Place Order</a>
+      <a class="nav-link" href="contact.html">Contact Us</a>
+    </nav>
+    <div class="header-right">
+      <span id="datetime" class="datetime"></span>
+    </div>
+  </header>
+
+  <main class="page contact-page">
+    <h1>Contact Us</h1>
+    <p>Have questions or need support? Fill out the form below:</p>
+
+    <form id="contactForm" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <span class="error" id="errName"></span>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <span class="error" id="errEmail"></span>
+
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone">
+      <span class="error" id="errPhone"></span>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+      <span class="error" id="errMessage"></span>
+
+      <button type="submit" class="btn">Send Message</button>
+      <div class="feedback" id="feedback"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Goldiey's Electronic Store</p>
+  </footer>
+
+  <script src="JS VALIDATION/validation.js"></script>
+</body>
+</html>
