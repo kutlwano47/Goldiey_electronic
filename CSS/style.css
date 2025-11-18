@@ -12,7 +12,7 @@ body { font-family: Inter, system-ui, Segoe UI, Arial; color: #f8fafc; margin: 0
 .page { padding: 28px; border-radius: 12px; margin: 20px; background: rgba(12, 9, 9, 0.096); }
 
 /* Per-page background images */
-body.index-page { background: url('/IMAGES/background\ contact.jpg') no-repeat center center fixed; background-size: cover; }
+body.index-page { background: url('IMAGES/background\ contact.jpg') no-repeat center center fixed; background-size: cover; }
 body.about-page { background: url('../IMAGES/background\ about.jpg') no-repeat center center fixed; background-size: cover; }
 body.products-page { background: url('../IMAGES/background\ product.jpg') no-repeat center center fixed; background-size: cover; }
 body.contact-page { background: url('../IMAGES/background\ home.jpg') no-repeat center center fixed; background-size: cover; }
